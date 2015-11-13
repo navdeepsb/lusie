@@ -1,0 +1,17 @@
+/**
+ * @desc The stylesheet for the light (default) app theme
+ * @author Navdeep
+ */
+
+body {
+	color: #666666;
+}
+
+a {
+	color: #83af9b;
+}
+
+.board__num--processed {
+	color: white;
+	background: #ff6b6b;
+}

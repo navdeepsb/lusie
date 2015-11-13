@@ -1,0 +1,18 @@
+/**
+ * @desc The stylesheet for the dark app theme
+ * @author Navdeep
+ */
+
+body {
+	color: #ffffff;
+	background: #444444;
+}
+
+a {
+	color: #dddddd;
+}
+
+.board__num--processed {
+	color: #444444;
+	background: #ffffff;
+}

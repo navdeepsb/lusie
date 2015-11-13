@@ -1,0 +1,74 @@
+/**
+ * @desc The common stylesheet for the light and dark app themes
+ * @author Navdeep
+ */
+
+html {
+	font-size: 1em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Source Code Pro", monospace;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button, input {
+	font-family: inherit;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.underline {
+	border-bottom: 1px solid;
+}
+
+.helper__text {
+	font-size: 1.5rem;
+}
+
+.dynamic {
+	width: 30%;
+	height: 100vh;
+}
+
+#num {
+	font-size: 18rem;
+}
+
+.static {
+	width: 70%;
+	height: 100vh;
+}
+
+.board__num {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin: 5px;
+	border-radius: 50%;
+	font-size: 1.5rem;
+}
+
+.theme-switcher {
+	width: 60px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
